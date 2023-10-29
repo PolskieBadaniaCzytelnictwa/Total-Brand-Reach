@@ -3,8 +3,8 @@ import pandas as pd
 
 pd.set_option('display.float_format', '{:.0f}'.format)
 
-df = pd.read_excel('C:/Users/lapto/OneDrive/Pulpit/TBR_1-9.2023/TBR_9m.xlsx')
-tematyka = pd.read_excel('C:/Users/lapto/OneDrive/Pulpit/TBR_1-9.2023/kat.xlsx')
+df = pd.read_excel('./TBR_9m.xlsx')
+tematyka = pd.read_excel('./kat.xlsx')
 
 tematyka_lista = tematyka['kat'].unique()
 wskaźniki_lista = ['druk+e-wydania', 'www', 'TBR']
